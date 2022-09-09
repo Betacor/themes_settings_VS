@@ -1,0 +1,30 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "git.ignoreMissingGitWarning": true,
+    "editor.linkedEditing": true,
+    "workbench.colorTheme": "Tokyo Night",
+
+    "editor.tokenColorCustomizations": {
+        "[Tokyo Night]": { // or "[Tokyo Night Storm]"
+            "comments": "#5e6383",
+                    
+            "textMateRules": [{
+                "scope": [
+                    "comment",
+                    "meta.var.expr storage.type",
+                    "keyword.control.flow",
+                    "keyword.control.return",
+                    "meta.directive.vue punctuation.separator.key-value.html",
+                    "meta.directive.vue entity.other.attribute-name.html",
+                    "tag.decorator.js entity.name.tag.js",
+                    "tag.decorator.js punctuation.definition.tag.js",
+                    "storage.modifier"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }]
+        }
+    }
+}
+
